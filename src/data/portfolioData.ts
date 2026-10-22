@@ -50,7 +50,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     platform: 'Unity | Mobile',
     company: 'Abmira Gamers Studios, Lahore',
     duration: 'Jul 2023 – May 2025',
-    image: '/public/assets/aistudio/image_b46847f5.png',
+    image: './assets/aistudio/image_b46847f5.png',
     role: 'Unity Developer',
     description: 'Developed dual endless and level-based game modes, responsive gun physics kinematics, and scalable monetization shop systems.',
     responsibilities: [
