@@ -17,7 +17,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onC
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <div className="w-full h-full relative overflow-hidden flex items-center justify-center">
           <img
-            src="/public/assets/aistudio/image_30f4c2cb.png"
+            {/* src="/public/assets/aistudio/image_30f4c2cb.png" */}
+          //  FIXED (Vite looks directly for the assets in your deployed folder
+              src="./assets/aistudio/image_30f4c2cb.png"
             alt="Abdullah Khan Unity Game Developer Floating Island"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center opacity-95 transition-opacity duration-500 scale-100 hover:scale-[1.01] transition-transform duration-1000"
