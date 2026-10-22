@@ -26,7 +26,7 @@ export const WORK_PROJECTS: WorkProject[] = [
     platform: 'Unity | Mobile',
     company: 'Abmira Gamers Studios, Lahore',
     duration: 'Jul 2023 – May 2025',
-    image: '/public/assets/aistudio/stick_fight_thumbnail_61ccd20b.jpg',
+    image: './assets/aistudio/stick_fight_thumbnail_61ccd20b.jpg',
     role: 'Unity Developer',
     description: 'Designed and implemented core combat mechanics, intelligent enemy AI, and mobile runtime optimizations for a hit mobile action stickman battler.',
     responsibilities: [
